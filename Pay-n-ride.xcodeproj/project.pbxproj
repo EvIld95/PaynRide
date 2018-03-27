@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826716FD60D824FE057CAB76 /* Pods_Pay_n_ride.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B427F431E6C1226DA38BA1 /* Pods_Pay_n_ride.framework */; };
+		F7276C43205C0B2300EBF4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7276C42205C0B2300EBF4DE /* AppDelegate.swift */; };
+		F7276C45205C0B2300EBF4DE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7276C44205C0B2300EBF4DE /* MainViewController.swift */; };
+		F7276C48205C0B2300EBF4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7276C46205C0B2300EBF4DE /* Main.storyboard */; };
+		F7276C4A205C0B2300EBF4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7276C49205C0B2300EBF4DE /* Assets.xcassets */; };
+		F7276C4D205C0B2300EBF4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7276C4B205C0B2300EBF4DE /* LaunchScreen.storyboard */; };
+		F7276C56205C11B600EBF4DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7276C55205C11B600EBF4DE /* Extensions.swift */; };
+		F741C9562067BBB9002E6926 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F741C9552067BBB9002E6926 /* MapKit.framework */; };
+		F751E354206AE8D80050D351 /* AnimatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751E353206AE8D80050D351 /* AnimatorManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4B427F431E6C1226DA38BA1 /* Pods_Pay_n_ride.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pay_n_ride.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C921603F1903DB9B92134E8A /* Pods-Pay-n-ride.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pay-n-ride.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pay-n-ride/Pods-Pay-n-ride.debug.xcconfig"; sourceTree = "<group>"; };
+		D0463EAEA84F2444A04E86F6 /* Pods-Pay-n-ride.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pay-n-ride.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pay-n-ride/Pods-Pay-n-ride.release.xcconfig"; sourceTree = "<group>"; };
+		F7276C3F205C0B2300EBF4DE /* Pay-n-ride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pay-n-ride.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7276C42205C0B2300EBF4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7276C44205C0B2300EBF4DE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F7276C47205C0B2300EBF4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7276C49205C0B2300EBF4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7276C4C205C0B2300EBF4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7276C4E205C0B2300EBF4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7276C55205C11B600EBF4DE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F741C9552067BBB9002E6926 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F751E353206AE8D80050D351 /* AnimatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7276C3C205C0B2300EBF4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F741C9562067BBB9002E6926 /* MapKit.framework in Frameworks */,
+				826716FD60D824FE057CAB76 /* Pods_Pay_n_ride.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A085FBB58376CE1498FBB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F741C9552067BBB9002E6926 /* MapKit.framework */,
+				B4B427F431E6C1226DA38BA1 /* Pods_Pay_n_ride.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8D7B981CBD440C0A95A811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C921603F1903DB9B92134E8A /* Pods-Pay-n-ride.debug.xcconfig */,
+				D0463EAEA84F2444A04E86F6 /* Pods-Pay-n-ride.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7276C36205C0B2300EBF4DE = {
+			isa = PBXGroup;
+			children = (
+				F7276C41205C0B2300EBF4DE /* Pay-n-ride */,
+				F7276C40205C0B2300EBF4DE /* Products */,
+				DA8D7B981CBD440C0A95A811 /* Pods */,
+				01A085FBB58376CE1498FBB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7276C40205C0B2300EBF4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7276C3F205C0B2300EBF4DE /* Pay-n-ride.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7276C41205C0B2300EBF4DE /* Pay-n-ride */ = {
+			isa = PBXGroup;
+			children = (
+				F7276C54205C11AB00EBF4DE /* Utils */,
+				F7276C42205C0B2300EBF4DE /* AppDelegate.swift */,
+				F7276C44205C0B2300EBF4DE /* MainViewController.swift */,
+				F7276C46205C0B2300EBF4DE /* Main.storyboard */,
+				F7276C49205C0B2300EBF4DE /* Assets.xcassets */,
+				F7276C4B205C0B2300EBF4DE /* LaunchScreen.storyboard */,
+				F7276C4E205C0B2300EBF4DE /* Info.plist */,
+				F751E353206AE8D80050D351 /* AnimatorManager.swift */,
+			);
+			path = "Pay-n-ride";
+			sourceTree = "<group>";
+		};
+		F7276C54205C11AB00EBF4DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F7276C55205C11B600EBF4DE /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7276C3E205C0B2300EBF4DE /* Pay-n-ride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7276C51205C0B2300EBF4DE /* Build configuration list for PBXNativeTarget "Pay-n-ride" */;
+			buildPhases = (
+				953FABB161341A2AF648C740 /* [CP] Check Pods Manifest.lock */,
+				F7276C3B205C0B2300EBF4DE /* Sources */,
+				F7276C3C205C0B2300EBF4DE /* Frameworks */,
+				F7276C3D205C0B2300EBF4DE /* Resources */,
+				A3B9BEA6A5CBAFA3DEB9B258 /* [CP] Embed Pods Frameworks */,
+				ABC18A9DB01F5375FC2F510E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pay-n-ride";
+			productName = "Pay-n-ride";
+			productReference = F7276C3F205C0B2300EBF4DE /* Pay-n-ride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7276C37205C0B2300EBF4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Paweł Szudrowicz";
+				TargetAttributes = {
+					F7276C3E205C0B2300EBF4DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F7276C3A205C0B2300EBF4DE /* Build configuration list for PBXProject "Pay-n-ride" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7276C36205C0B2300EBF4DE;
+			productRefGroup = F7276C40205C0B2300EBF4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7276C3E205C0B2300EBF4DE /* Pay-n-ride */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7276C3D205C0B2300EBF4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7276C4D205C0B2300EBF4DE /* LaunchScreen.storyboard in Resources */,
+				F7276C4A205C0B2300EBF4DE /* Assets.xcassets in Resources */,
+				F7276C48205C0B2300EBF4DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		953FABB161341A2AF648C740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pay-n-ride-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B9BEA6A5CBAFA3DEB9B258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pay-n-ride/Pods-Pay-n-ride-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlueSocket/Socket.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/M13ProgressSuite/M13ProgressSuite.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Socket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13ProgressSuite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pay-n-ride/Pods-Pay-n-ride-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC18A9DB01F5375FC2F510E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pay-n-ride/Pods-Pay-n-ride-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7276C3B205C0B2300EBF4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7276C45205C0B2300EBF4DE /* MainViewController.swift in Sources */,
+				F751E354206AE8D80050D351 /* AnimatorManager.swift in Sources */,
+				F7276C56205C11B600EBF4DE /* Extensions.swift in Sources */,
+				F7276C43205C0B2300EBF4DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7276C46205C0B2300EBF4DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7276C47205C0B2300EBF4DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7276C4B205C0B2300EBF4DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7276C4C205C0B2300EBF4DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7276C4F205C0B2300EBF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7276C50205C0B2300EBF4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7276C52205C0B2300EBF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C921603F1903DB9B92134E8A /* Pods-Pay-n-ride.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 276JFTHA68;
+				INFOPLIST_FILE = "Pay-n-ride/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pawelszudrowicz.boardapp.Pay-n-ride";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7276C53205C0B2300EBF4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0463EAEA84F2444A04E86F6 /* Pods-Pay-n-ride.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 276JFTHA68;
+				INFOPLIST_FILE = "Pay-n-ride/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pawelszudrowicz.boardapp.Pay-n-ride";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7276C3A205C0B2300EBF4DE /* Build configuration list for PBXProject "Pay-n-ride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7276C4F205C0B2300EBF4DE /* Debug */,
+				F7276C50205C0B2300EBF4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7276C51205C0B2300EBF4DE /* Build configuration list for PBXNativeTarget "Pay-n-ride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7276C52205C0B2300EBF4DE /* Debug */,
+				F7276C53205C0B2300EBF4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7276C37205C0B2300EBF4DE /* Project object */;
+}
